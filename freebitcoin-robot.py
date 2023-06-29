@@ -31,7 +31,7 @@ def freebitcoin_faucet(addresse_mail, password):
                 loginButton.click()
         except:
             None
-############################################################################
+#############################################################################
         noThanks = driver.find_element(By.CSS_SELECTOR, 'div.pushpad_deny_button')
         noThanks.click()
         try:
